@@ -1,0 +1,10 @@
+name: EmeraldStocks
+version: "1.0"
+author: vicr123
+main: com.vicr123.bnbmc.emeraldstocks.EmeraldStocks
+depend:
+  - ChairEco
+
+commands:
+  stocks:
+    description: View/Purchase stocks
