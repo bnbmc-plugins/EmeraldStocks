@@ -70,10 +70,10 @@ public class EmeraldStocks extends JavaPlugin {
     }
 
     public int getBuyPrice(float seed) {
-        return (int) (Math.pow(seed, 3) * 15000 + (seed * 100));
+        return (int) (Math.pow(seed, 7500) + (seed * 100));
     }
 
     public int getSellPrice(float seed) {
-        return (int) (Math.pow(seed, 3) * 15000 - (seed * 100));
+        return (int) (Math.pow(seed, 7500) - (seed * 100));
     }
 }
